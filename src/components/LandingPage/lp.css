@@ -1,0 +1,67 @@
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animated-element {
+    animation: fade-in 2s ease-in-out;
+}
+
+@keyframes example-animation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.picture-element {
+    animation: example-animation 3s linear;
+}
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.animatedElement {
+    animation: slide-in-left 4s ease-in-out;
+    visibility: hidden;
+}
+
+.animatedElement.visible {
+    animation-name: slide-in-left;
+    visibility: visible;
+}
+
+@keyframes slide-in-down {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.animated-down {
+    animation: slide-in-down 3s ease-in-out;
+    visibility: hidden;
+}
+
+.animated-down.visible {
+    animation-name: slide-in-down;
+    visibility: visible;
+}
