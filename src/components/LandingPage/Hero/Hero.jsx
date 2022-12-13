@@ -1,4 +1,4 @@
-import profile from '../../../assets/images/profile.png';
+import profile from '../../../assets/images/Victor.png';
 import active from '../../../assets/images/active.jpg';
 import active2 from '../../../assets/images/active2.jpg';
 import '../lp.css'
@@ -26,8 +26,8 @@ export const Hero = () => {
                         <p className="text-slate-400 mt-10 lg:mt-0 md:text-[1rem] text-sm md:text-left text-center">Communicate with me if you need <br />a website service, or you want to <br /> hire a front end developer.</p>
                     </div>
                 </div>
-                <div className="hero__image lg:mt-0 mt-10">
-                    <img src={profile} alt="profile-image" />
+                <div className="hero__image lg:mt-10 mt-10">
+                    <img className="rounded-full" src={profile} alt="profile-image" />
                 </div>
             </section>
         </div>
