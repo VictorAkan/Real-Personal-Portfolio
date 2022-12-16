@@ -37,7 +37,7 @@
 }
 
 .animatedElement {
-    animation: slide-in-left 4s ease-in-out;
+    animation: slide-in-left 3s ease-in-out;
     visibility: hidden;
 }
 
@@ -63,5 +63,25 @@
 
 .animated-down.visible {
     animation-name: slide-in-down;
+    visibility: visible;
+}
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-1%);
+    }
+}
+
+.animated-right {
+    animation: slide-in-right 2s ease-in-out;
+    visibility: hidden;
+}
+
+.animated-right.visible {
+    animation-name: slide-in-right;
     visibility: visible;
 }

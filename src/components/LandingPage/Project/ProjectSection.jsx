@@ -22,15 +22,31 @@ const MyDot = ({ isActive }) => (
 
 export const ProjectSection = () => {
     const elementRef = useRef(null)
+    const leftRef = useRef(null)
+    const rightRef = useRef(null)
 
     useEffect(() => {
         function handleScroll() {
             const rect = elementRef.current.getBoundingClientRect()
+            const leftHeader = leftRef.current.getBoundingClientRect()
+            const rightHeader = rightRef.current.getBoundingClientRect()
 
             if (rect.top < window.innerHeight && rect.bottom > 0) {
                 elementRef.current.classList.add('visible')
             } else {
                 elementRef.current.classList.remove('visible')
+            }
+
+            if (leftHeader.top < window.innerHeight && leftHeader.bottom > 0) {
+                leftRef.current.classList.add('visible')
+            } else {
+                leftRef.current.classList.remove('visible')
+            }
+
+            if (rightHeader.top < window.innerHeight && rightHeader.bottom > 0) {
+                rightRef.current.classList.add('visible')
+            } else {
+                rightRef.current.classList.remove('visible')
             }
         }
         window.addEventListener('scroll', handleScroll)
@@ -40,13 +56,13 @@ export const ProjectSection = () => {
     }, [])
     return (
         <div className="mt-36">
-            <div ref={elementRef} className="flex justify-center">
+            <div className="flex justify-center">
                 <div className="md:flex md:space-x-20 px-10 md:px-0 items-center">
-                    <div className="flex items-center">
+                    <div ref={leftRef} className="animatedElement flex items-center">
                         <p className="text-sky-400 invisible md:visible">----</p>
                         <i className="ml-3 text-sky-400">Latest Projects</i>
                     </div>
-                    <div>
+                    <div ref={rightRef} className="animated-right">
                         <h2 className="text-xl text-center md:text-left md:text-4xl">Projects that i've <br /> built to solve problems</h2>
                     </div>
                 </div>
