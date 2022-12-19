@@ -2,6 +2,7 @@ import profile from '../../../assets/images/Victor.png';
 import active from '../../../assets/images/active.jpg';
 import active2 from '../../../assets/images/active2.jpg';
 import '../lp.css'
+import { Link } from 'react-router-dom';
 
 export const Hero = () => {
     return (
@@ -21,7 +22,7 @@ export const Hero = () => {
                     </div>
                     <div className='lg:flex block md:space-x-20 mt-14'>
                         <div className="flex justify-center">
-                            <button className="uppercase bg-sky-600 hover:bg-sky-500 px-10 md:py-5 py-3 lg:py-0 text-white">let's talk</button>
+                            <Link to="/contact" className="uppercase bg-sky-600 hover:bg-sky-500 px-10 md:py-5 py-3 lg:py-5 text-white">let's talk</Link>
                         </div>
                         <p className="text-slate-400 mt-10 lg:mt-0 md:text-[1rem] text-sm md:text-left text-center">Communicate with me if you need <br />a website service, or you want to <br /> hire a front end developer.</p>
                     </div>

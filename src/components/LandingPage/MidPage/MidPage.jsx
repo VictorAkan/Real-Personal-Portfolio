@@ -30,18 +30,18 @@ export const MidPage = () => {
                     <h2 className="font-bold text-center">_Other platforms</h2>
                 </div>
                 <div className="flex items-center space-x-10">
-                    <button className="google_image">
+                    <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox" className="google_image">
                         <img className="w-32" src={google} alt="google" />
-                    </button>
-                    <button className="slack_image">
+                    </a>
+                    <a target="_blank" href="https://slack.com/workspace-signin" className="slack_image">
                         <img className="w-28" src={slack} alt="slack" />
-                    </button>
-                    <button className="instagram">
+                    </a>
+                    <a href="https://www.instagram.com/" className="instagram">
                         <img className="w-28" src={instagram} alt="instagram" />
-                    </button>
-                    <button className="linkedin">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/victor-ikurekong-583215240/" className="linkedin">
                         <img className="w-28" src={linkedin} alt="linkedin" />
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

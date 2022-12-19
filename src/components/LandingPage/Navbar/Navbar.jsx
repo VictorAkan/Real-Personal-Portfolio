@@ -14,15 +14,15 @@ export const Navbar = () => {
                     <h2 className="text-2xl font-bold">Victor.</h2>
                 </div>
                 <div className="flex items-center space-x-6 ml-auto">
-                    <button className="bg-white rounded-full py-1 px-3 border border-slate-400">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100084209444829" className="bg-white rounded-full py-1 px-3 border border-slate-400">
                         <FontAwesomeIcon icon={faFacebookF} />
-                    </button>
-                    <button className="bg-white rounded-full py-1 px-2 border border-slate-400">
+                    </a>
+                    <a target="_blank" href="https://twitter.com/VIkurekong" className="bg-white rounded-full py-1 px-2 border border-slate-400">
                         <FontAwesomeIcon icon={faTwitter} />
-                    </button>
-                    <button className="bg-white rounded-full py-1 px-2 border border-slate-400">
+                    </a>
+                    <a target="_blank" href="https://github.com/VictorAkan" className="bg-white rounded-full py-1 px-2 border border-slate-400">
                         <FontAwesomeIcon icon={faGithub} />
-                    </button>
+                    </a>
                 </div>
             </nav>
         </div>
