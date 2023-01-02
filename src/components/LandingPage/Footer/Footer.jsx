@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 export const Footer = () => {
     return (
         <div className="mt-40 pt-20 pb-20 bg-sky-600">
             <div className="md:px-32 px-10 lg:flex lg:space-x-96 items-center">
                 <div className="block">
                     <div>
-                        <h2 className="text-4xl text-slate-800">Let's <button className="underline text-yellow-500">work</button><br />together</h2>
+                        <h2 className="text-4xl text-slate-800">Let's <Link to="/contact" className="underline text-yellow-500">work</Link><br />together</h2>
                     </div>
                     <div className="mt-6 text-slate-100"><p className="text-center md:text-left">
                         Let's keep a very smooth and <br /> better business, communicate and <br /> bring all goals to achievements.

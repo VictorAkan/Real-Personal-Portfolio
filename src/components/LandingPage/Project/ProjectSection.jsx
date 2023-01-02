@@ -8,6 +8,7 @@ import menu from '../../../assets/images/projectImages/menu.jpg';
 import toggle from '../../../assets/images/projectImages/toggle.png';
 import useReducer from '../../../assets/images/projectImages/useReducer.png';
 import '../lp.css'
+import { Link } from 'react-router-dom';
 
 const MyDot = ({ isActive }) => (
     <span
@@ -70,9 +71,9 @@ export const ProjectSection = () => {
             <div className="projects_liveView mt-14 overflow-x-auto flex scroll-smooth space-x-10 scroll-pl-6 snap-x">
                 <Carousel cols={3} rows={1} gap={10} dot={MyDot} autoplay={5000} loop>
                     <Carousel.Item>
-                        <button>
+                        <a target="_blank" href="https://react-cocktail-two.vercel.app/">
                             <img className="h-60 w-[40rem]" src={cocktail} alt="cocktail" />
-                        </button>
+                        </a>
                         <div className="md:flex items-center">
                             <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
                             <div className="ml-auto">
@@ -84,9 +85,9 @@ export const ProjectSection = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <button>
+                        <a target="_blank" href="https://login-form-one-kappa.vercel.app/">
                             <img className="lg:h-60" src={login} alt="login" />
-                        </button>
+                        </a>
                         <div className="md:flex items-center">
                             <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
                             <div className="ml-auto">
@@ -98,9 +99,9 @@ export const ProjectSection = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <button>
+                        <a target="_blank" href="https://react-menu-ecru.vercel.app/">
                             <img className="lg:h-60" src={menu} alt="menu" />
-                        </button>
+                        </a>
                         <div className="md:flex items-center">
                             <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
                             <div className="ml-auto">
@@ -112,9 +113,9 @@ export const ProjectSection = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <button>
+                        <a target="_blank" href="https://react-toggle-mode.vercel.app/">
                             <img src={toggle} alt="toggle" />
-                        </button>
+                        </a>
                         <div className="md:flex items-center">
                             <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
                             <div className="ml-auto">
@@ -126,9 +127,9 @@ export const ProjectSection = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <button>
+                        <a target="_blank" href="https://react-use-reducer-eta.vercel.app/">
                             <img className="h-60" src={useReducer} alt="useReducer" />
-                        </button>
+                        </a>
                         <div className="md:flex items-center">
                             <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
                             <div className="ml-auto">
@@ -144,7 +145,7 @@ export const ProjectSection = () => {
             <div ref={elementRef} className="mt-20 animated-down mb-20 flex justify-center">
                 <div className="md:flex px-5 md:px-0 md:items-center md:space-x-10">
                     <div className="flex justify-center">
-                        <button className="uppercase bg-sky-600 hover:bg-sky-500 text-white p-3 px-4">View all projects</button>
+                        <Link to="/projects" className="uppercase bg-sky-600 hover:bg-sky-500 text-white p-3 px-4">View all projects</Link>
                     </div>
                     <div>
                         <p className="text-slate-500 text-center md:text-left mt-10 md:mt-0">Get to explore different inspiring projects created by me.<br />

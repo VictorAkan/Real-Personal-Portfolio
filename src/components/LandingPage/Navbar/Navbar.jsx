@@ -1,13 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter,faFacebookF,faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
         <div className="px-24">
             <nav className="md:flex space-y-3 md:space-y-0 block items-center xl:space-x-[27.7rem] 2xl:space-x-[50rem] md:space-x-48 lg:space-x-[27.7rem] mt-7">
                 <div className="flex items-center space-x-2">
-                    <h2 className="uppercase">menu</h2>
+                    <Link to="/" className="uppercase">menu</Link>
                     <FontAwesomeIcon icon={faBarsStaggered} />
                 </div>
                 <div>

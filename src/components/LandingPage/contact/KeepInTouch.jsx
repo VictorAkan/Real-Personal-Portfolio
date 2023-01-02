@@ -1,6 +1,7 @@
 import ionic from '../../../assets/images/ionic.png';
 import preact from '../../../assets/images/preact.png';
 import pwa from '../../../assets/images/pwa.png';
+import { Link } from 'react-router-dom';
 
 export const KeepInTouch = () => {
     return (
@@ -19,7 +20,7 @@ export const KeepInTouch = () => {
                     </div>
                 </div>
                 <div className="btn mt-6 lg:mt-0 flex lg:block justify-center">
-                    <button className="uppercase bg-black text-white p-3 hover:bg-slate-800">all integrations</button>
+                    <Link to="/ss" className="uppercase bg-black text-white p-3 hover:bg-slate-800">all integrations</Link>
                 </div>
             </div>
             <div className="grid mt-20 gap-5 grid-rows-3 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-1 lg:grid-cols-3">
