@@ -6,7 +6,7 @@ export const ContactForm = () => {
     const form = useRef()
     const onSubmit = (e) => {
         e.preventDefault()
-        emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', form.current, 'PUBLIC_KEY')
+        emailjs.sendForm('service_xau1lhm', 'template_cc03r0f', form.current, 'p353lfj7KMPOdiaPa')
             .then((result) => {
                 console.log('SUCCESS!', result.message)
             }, (error) => {
