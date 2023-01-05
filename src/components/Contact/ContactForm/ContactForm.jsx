@@ -15,9 +15,9 @@ export const ContactForm = () => {
     }
     // const canSubmit = Boolean(toSend.from_name) && Boolean(toSend.reply_to) === true
     return (
-        <div className="px-32">
+        <div className="lg:px-32">
             <div>
-            <h2 className="text-2xl font-bold text-sky-400 text-center mt-14">Feel free to contact me</h2>
+            <h2 className="text-2xl md:font-bold text-sky-400 text-center mt-14">Feel free to contact me</h2>
                 <form ref={form} onSubmit={onSubmit} className="px-10 mt-5" action="">
                     <div>
                         <input name="user_name" className="p-3 focus:outline-none focus:ring bg-slate-200 focus:ring-sky-600 rounded-md w-full" type="text" placeholder="Name" required/>
