@@ -77,10 +77,10 @@ export const ProjectSection = () => {
                         <div className="md:flex items-center">
                             <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
                             <div className="ml-auto">
-                                <button className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
-                                    <p>Full details</p>
+                                <Link to="/projects" className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
+                                    <p>Full projects</p>
                                     <FontAwesomeIcon icon={faAnglesRight} />
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -91,10 +91,10 @@ export const ProjectSection = () => {
                         <div className="md:flex items-center">
                             <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
                             <div className="ml-auto">
-                                <button className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
-                                    <p>Full details</p>
+                                <Link to="/projects" className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
+                                    <p>Full projects</p>
                                     <FontAwesomeIcon icon={faAnglesRight} />
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -105,10 +105,10 @@ export const ProjectSection = () => {
                         <div className="md:flex items-center">
                             <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
                             <div className="ml-auto">
-                                <button className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
-                                    <p>Full details</p>
+                                <Link to="/projects" className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
+                                    <p>Full projects</p>
                                     <FontAwesomeIcon icon={faAnglesRight} />
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -119,10 +119,10 @@ export const ProjectSection = () => {
                         <div className="md:flex items-center">
                             <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
                             <div className="ml-auto">
-                                <button className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
-                                    <p>Full details</p>
+                                <Link to="/projects" className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
+                                    <p>Full projects</p>
                                     <FontAwesomeIcon icon={faAnglesRight} />
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -133,10 +133,10 @@ export const ProjectSection = () => {
                         <div className="md:flex items-center">
                             <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
                             <div className="ml-auto">
-                                <button className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
-                                    <p>Full details</p>
+                                <Link to="/projects" className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
+                                    <p>Full projects</p>
                                     <FontAwesomeIcon icon={faAnglesRight} />
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </Carousel.Item>
