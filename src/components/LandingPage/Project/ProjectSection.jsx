@@ -89,7 +89,7 @@ export const ProjectSection = () => {
                             <img className="lg:h-60" src={login} alt="login" />
                         </a>
                         <div className="md:flex items-center">
-                            <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
+                            <div><h2 className="capitalize md:text-2xl">Validation website</h2></div>
                             <div className="ml-auto">
                                 <Link to="/projects" className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
                                     <p>Full projects</p>
@@ -103,7 +103,7 @@ export const ProjectSection = () => {
                             <img className="lg:h-60" src={menu} alt="menu" />
                         </a>
                         <div className="md:flex items-center">
-                            <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
+                            <div><h2 className="capitalize md:text-2xl">Menu website</h2></div>
                             <div className="ml-auto">
                                 <Link to="/projects" className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
                                     <p>Full projects</p>
@@ -117,7 +117,7 @@ export const ProjectSection = () => {
                             <img src={toggle} alt="toggle" />
                         </a>
                         <div className="md:flex items-center">
-                            <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
+                            <div><h2 className="capitalize md:text-2xl">Toggle website</h2></div>
                             <div className="ml-auto">
                                 <Link to="/projects" className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
                                     <p>Full projects</p>
@@ -131,7 +131,7 @@ export const ProjectSection = () => {
                             <img className="h-60" src={useReducer} alt="useReducer" />
                         </a>
                         <div className="md:flex items-center">
-                            <div><h2 className="capitalize md:text-2xl">Cocktail website</h2></div>
+                            <div><h2 className="capitalize md:text-2xl">Shopping Cart</h2></div>
                             <div className="ml-auto">
                                 <Link to="/projects" className="text-sky-400 hover:text-sky-300 flex items-center uppercase">
                                     <p>Full projects</p>
